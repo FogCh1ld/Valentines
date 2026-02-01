@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body {
+  background: linear-gradient(135deg, #ffd6e8, #fff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+}
+
+h1 {
+  color: #ff69b4;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ff8acb;
+}
+
+.buttons {
+  margin-top: 30px;
+  position: relative;
+  height: 100px;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff69b4;
+  color: white;
+}
+
+#noBtn {
+  background: #ffe4ef;
+  color: #ff69b4;
+  position: absolute;
+}
+
+#message {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #ff69b4;
+}
